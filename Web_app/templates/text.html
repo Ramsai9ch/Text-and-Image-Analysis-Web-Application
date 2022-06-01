@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLOps Project</title>
+    <style>
+        .main {
+            border: 1px solid black;
+            margin: 1rem;
+            padding: 2rem 2rem;
+            text-align: center;
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <form action="/posttext" method="post">
+        <div class="main">
+            <h1 style="text-align: center;">Enter Text Below</h1>
+            <textarea name="input_text" cols="30" rows="10" placeholder="Enter text here" style="height: 300px; width: 500px;"></textarea>
+            <br>
+            <input type="submit" style="height: 40px; width: 150px; background-color: blue; font-size: medium; color: white; font-weight: bold;">
+        </div>
+    </form>
+    <div>
+        <a href="/home" style="text-align: center;"><h2>Home</h2></a>
+    </div>
+</body>
+</html>

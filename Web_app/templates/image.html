@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLOps Project</title>
+    <style>
+        .main {
+            border: 1px solid black;
+            margin: 1rem;
+            padding: 2rem 2rem;
+            text-align: center;
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <form action="/postimage" method="post" enctype="multipart/form-data">
+        <div class="main">
+            <h1 style="text-align:center;">Upload Image</h1>
+            <input type="file" name="file1">
+            <input type="submit">       
+        </div>
+    </form>
+    <div>
+        <a href="/home" style="text-align: center;"><h2>Home</h2></a>
+    </div>
+</body>
+</html>
